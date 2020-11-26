@@ -1318,7 +1318,7 @@ footer:after,
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 1fr 1fr;
-    gap: 15% 8%;
+    gap: 5% 8%;
     grid-template-areas: "diag diag diag" "pt1 pt2 pt3" "foot foot foot";
     padding: 5vmin;
     height: 90vh;
