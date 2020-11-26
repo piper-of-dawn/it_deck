@@ -1,0 +1,47 @@
+/**
+ * @file
+ * Presentation-specific styles.
+ */
+.der{
+    display: flex;
+    flex-direction: column;
+    height: 100% !important;
+
+    justify-content: space-evenly;
+   width: 70%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+}
+
+
+.eqnout
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+
+body{
+    line-height: 2;
+}
+
+#probabder img{
+    transform: scale(0.75);
+    padding: 1% !important;
+}
+
+#der img{
+    transform: scale(1.2);
+    padding: 1% !important;
+}
+#der1 img{
+    transform: scale(0.75);
+    padding: 1% !important;
+}
+.center{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.eqnout div{padding: 4px !important}

@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Myplanet reveal.js</title>
+
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/myplanet.css">
+    <link rel="stylesheet" href="css/presentation.css">
+
+
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <link rel="icon" href="lib/myplanet/logo/radiant-orange/mark-knockout.svg" />
+
+    <!-- Printing and PDF exports -->
+    <script src="js/reveal-print.js"></script>
+
+    <script id="MathJax-script" async src="https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ extensions: ["tex2jax.js"], jax: ["input/TeX", "output/HTML-CSS"], "HTML-CSS": {scale: 100 }, });</script>
+</head>
+
+<body>
+    <div class="reveal pattern--palette">
+        <div class="slides">
+            <section class="intro" id="intro">
+                <div class="logo-wrapper">
+                    <div class="big-title">
+                        <h1>Section Title</h1>
+                    </div>
+                </div>
+            </section>
+
+            <section class="title" id="title">
+                <div class="grid-wrapper">
+                    <div class="header">
+                        <div class="label">NBER WORKING PAPER</div>
+                    </div>
+                    <div class="content">
+                        <h1>What you Export Matters</h1>
+                        <div class="description">
+                            When local cost discovery generates knowledge spillovers, specialization patterns become
+                            partly indeterminate and the mix of goods that a country produces may have important
+                            implications for economic growth.
+                        </div>
+                    </div>
+                    <div class="credit">
+                        <hr />
+                        <div class="label">Presented By</div>
+                        <div class="name">Kumar Shantanu</div>
+                        <div class="role">Msc 2019</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="churchill" class="simple ">
+
+                <div class="wrap ">
+                    <div class="card-50 ">
+                        <blockquote>
+                            <p>“All of the great empires of the future will be empires of the mind.”</p>
+                            <p><cite>Sir Winston Churchill</cite></p>
+                        </blockquote>
+                        <figure><img src="churchill.png " alt="Churchill "></figure>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="thetaintro1" class="blueprint">
+                <div class="grid-e1">
+                    <div class="pt1">
+                        <p class="e fragment">
+                            When entrepreneurs make their investment decisions, they do not know whether they will end up
+                            with a high-productivity good or a low-productivity good.
+                        </p>
+                    </div>
+
+
+                    <div class="pt2">
+                        <p class="e fragment">
+                            The \(\theta\) associated with an investment project is discovered only after the investment
+                            is sunk. All that entrepreneurs know ex ante is that \(\theta\) is distributed uniformly over
+                            the range \([0, h]\)
+                        </p>
+                    </div>
+                    <div class="diag">
+                        <div class="diagram ">
+                            <div class="fragment " style="position:absolute "> <img src="uniform1.svg #base "></div>
+                        </div>
+                    </div>
+
+                    <div class="foot">
+                        <h2 class="fragment white">
+                            The process of discovering the underlying cost structure of the economy, which is
+                            intrinsically uncertain, contributes a stochastic dimension to what a country will produce
+                            and therefore how rich it will be.</h2>
+                    </div>
+                </div>
+            </section>
+
+            <section id="thetamax_intro" class="blueprint">
+                <div class="grid-e2">
+                    <div class="diag">
+                        <div class="diagram ">
+                            <div class="fragment " style="position:absolute "> <img src="uniform1.svg #base "></div>
+                        </div>
+                    </div>
+                    <div class="pt1">
+                        <p class="e fragment">
+                            Let \(\theta^{max}\) represent the productivity of the most sophisticated product of the
+                            economy.
+                        </p>
+                    </div>
+                    <div class="diag">
+                        <div class="diagram ">
+                            <div class="fragment " style="position:absolute "> <img src="uniform1.svg #thmax "></div>
+                        </div>
+                    </div>
+                    <div class="pt2">
+                        <p class="e fragment">
+                            Every investor has two choices, either to emulate the most sophisticated product or to
+                            innovate their own product.
+                        </p>
+                    </div>
+
+                    <div class="pt3">
+                        <p class="e fragment">
+
+                            Emulators operate at a fraction \(\alpha\) of the incumbent in productivity, with \(0 \leq
+                            \alpha \leq 1\) .
+
+                        </p>
+                    </div>
+                    <div class="diag">
+                        <div class="diagram ">
+                            <div class="fragment " style="position:absolute "> <img src="uniform1.svg #athmax "></div>
+                        </div>
+                    </div>
+                    <div class="foot">
+                        <h2 class="fragment white">
+
+                            Hence each inventor now faces an uniformly distributed productivity from \(\alpha
+                            \theta_{max}\) to \(h\)
+                        </h2>
+                    </div>
+
+                </div>
+            </section>
+           
+
+
+
+
+
+
+
+
+
+
+      
+            <section class = "blueprint">
+
+
+
+                <div class = "grid-e3">
+
+<div class="title"><h1 class="white">Entrepreneurship and Sophistication</h1></div>
+<div class="pt1 fragment white"><h2>Suppose there are \(m\) entrepreneurs in an economy each trying to innovate products the sophistication of which is uniformly distributed over \([0,h]\) </h2></div>
+<div class="pt2 fragment white"><h2>We will find the expected value of the maximum sophistication that will be achieved in this economy with \(m\) entrepreneurs. It is given as: </h2></div>
+<div class="pt3 fragment white"><h2>$$ E[\theta^\max] = {hm} \over {m+1} $$ </h2></div>
+
+
+                </div>
+
+
+
+
+            </section>
+
+            <section id="thetader" class="blueprint">
+                <div class="der">
+                    <div class="po1">
+                        <h2 class="white">Assume that there are \(m\) entrepreneurs in the economy, each
+                            <strong>independentally</strong> trying to innovate a product, the productivity \(\theta\)
+                            of is uniformally distributed over the interval \([0,h]\)</h2>
+                    </div>
+                    <div class="po2">
+                        <h2 class="white">\(\{\theta_1 \ldots \theta_m\}\) is a sequence of IID uniform random
+                            variables.</h2>
+                    </div>
+                    <div class="po3">
+                        <h2 class="white">We are interested in the maximum productivity an economy will expect given
+                            there are \(m\) entrepreneurs i,i.e \(\theta^{\max}=E[\max\{\theta_1 \ldots \theta_m\}]\) is
+                            a sequence of IID uniform random variables.</h2>
+                    </div>
+                    <div class="po4">
+                        <h2 class="white">$$P(\theta \leq \theta^{\max}) = P(\theta_1 \leq \theta^{\max}, ..., \theta_m
+                            \leq \theta^{\max}) = \prod_{i=1}^{n} P(\theta_i \leq \theta^{\max}) =
+                            [F_{\theta^{\max}}(\theta^{\max})]^m$$</h2>
+                    </div>
+                    <div class="po5">
+                        <h2 class="white">where \([F_{\theta^{\max}}(\theta^{\max})]^m\) is the CDF of \(\theta^{\max}\)
+                        </h2>
+                    </div>
+
+                </div>
+
+            </section>
+
+<section id="der" class = "blueprint">
+    <div class = "der">
+    <h2 class ="white">Derivation of \(E[\theta^\max]\) continued</h2>
+
+
+<img src="der2.png">
+
+
+</div>
+
+
+            </section>
+
+            <section id="der1" class = "blueprint">
+                <div class = "der">
+           
+            
+ 
+            
+            
+            <img src="der3.png">
+            </div>
+            
+            
+                        </section>
+      
+
+            <section id="probabder_innovate" class="blueprint">
+                <div class="der">
+                    <div>
+                        <h2 class="white">The probability that the investor \(i\) will innovate is:</h2>
+                    </div>
+                    <div>
+                        <div class="diagram1 ">
+                            <div class="fragment "> <img src="uniform11.svg"></div>
+                        </div>
+                    </div>
+                    <h2 class="white">
+                    <div class="eqnout">
+
+                        <div class="fragment center"> $$\text{prob}\left(\theta_{i} \geq \alpha \theta^{\max }\right)$$</div>
+                        <div class="fragment center"> $$ = \int_{\alpha \theta^{\max}}^h {1 \over h} d\theta $$</div>
+                        <div class="fragment center"> $$ = 1-\frac{\alpha E[\theta^{\max }]}{h}$$</div>   <div class="fragment center">$$ = 1- {\alpha m \over {m+1}}$$  </div>
+
+                    </div>
+                    </h2>
+                    <div class="fragment">
+                        <h2 class="white">The expected profit if investor innovates is given a exogenously
+                            determined world price \(p\)<h2>
+                                <h2 class="white">
+                                    <div class="eqnout">
+                                        <div class="center fragment">$$E\left(\pi \mid \theta_{i} \geq \alpha
+                                            \theta^{\max }\right)$$</div>
+
+                                        <div class="center fragment">$$=\frac{1}{2} p \left[h+\alpha E\left(\theta^{\max
+                                            }\right)\right]$$</div>
+                                        <div class="center fragment">$$=\frac{1}{2} p h\left[1+\frac{\alpha m}{m+1}\right]$$
+                                        </div>
+                                    </div>
+                                </h2>
+                    </div>
+
+                </div></section>
+
+
+
+        <section id="probabder_copy" class="blueprint">
+            <div class="der">
+                <div>
+                    <h2 class="white">The probability that the entrepreneur \(i\) will copy the most sophisticated product is:</h2>
+                </div>
+                <div>
+                    <div class="diagram1 ">
+                        <div class="fragment "> <img src="uniform11.svg"></div>
+                    </div>
+                </div>
+                <h2 class="white">
+                <div class="eqnout">
+
+                    <div class="fragment center"> $$\text{prob}\left(\theta_{i} \leq \alpha \theta^{\max }\right)$$</div>
+                    <div class="fragment center"> $$ = \int_0^{\alpha \theta^{\max}}{1 \over h} d\theta $$</div>
+                    <div class="fragment center"> $$ = \frac{\alpha E[\theta^{\max }]}{h}$$</div>   <div class="fragment center">$$ = {\alpha m \over {m+1}}$$  </div>
+
+                </div>
+                </h2>
+                <div class="fragment">
+                    <h2 class="white">The expected profit if entrepreneur copies the most sophisticated product, given a exogenously determined world price \(p\)<h2>
+                            <h2 class="white">
+                                <div class="eqnout">
+                                    <div class="center fragment">$$E\left(\pi \mid \theta_{i} \leq \alpha
+                                        \theta^{\max }\right)$$</div>
+
+                                    <div class="center fragment">$$=\frac{1}{2} p \left[0+\alpha E\left(\theta^{\max
+                                        }\right)\right]$$</div>
+                                    <div class="center fragment">$$=\frac{1}{2} p h\left[\frac{\alpha m}{m+1}\right]$$
+                                    </div>
+                                </div>
+                            </h2>
+                </div>
+
+            </div></section>
+
+
+
+            <section id="exp_profit" class="blueprint">
+                <div class="der">
+
+
+                    <div><h2 class="white">Now, entrepreneurs have two options whether to copy or to innovate we can calculate the expected profitability of the modern sector as: </h2></div>
+                            <div class="fragment">
+                                <h2 class="white">
+                            $$ {(1-{{\alpha m} \over {m+1} })}{{1 \over 2}ph (1+ {{\alpha m} \over {m+1}} )} $$
+
+                            $$ + {{\alpha m} \over {m+1}} {{1 \over 2}ph ({{\alpha m} \over {m+1}} )} $$</h2>
+
+                            </div>
+
+                            
+                    <div><h2 class="white hragment">This gives expected profitability of the modern sector as: 
+
+                    </h2></div>
+
+                    <div class="fragment">
+                    <h2 class="white">
+                        $$ {1 \over 2} ph $$
+
+                    </h2>
+
+                        </div>
+    
+                        <div><h2 class="white fragment">This gives expected profitability of the modern sector is independent of \(m\) and only dependent upon world price \(p\) and skill level \(h\). 
+
+                        </h2></div>
+
+
+
+
+
+
+
+                </div>
+
+            </section>
+
+
+
+
+
+        <div class="count-particles">
+            <span class="js-count-particles"></span>
+        </div>
+
+
+
+        <div id="particles-js"></div>
+        <script src="js/particles.min.js"></script>
+
+
+
+        <script src="js/app.js"></script>
+
+    </div>
+
+
+    <script src="lib/js/head.min.js "></script>
+    <script src="js/reveal.js "></script>
+    <script src="js\reveal-init.js "></script>
+</body>
+
+</html>
