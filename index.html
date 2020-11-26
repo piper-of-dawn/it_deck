@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>Myplanet reveal.js</title>
+    <title>IT_Deck</title>
 
 
     <link rel="stylesheet" href="css/reveal.css">
@@ -17,7 +17,7 @@
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
 
-    <link rel="icon" href="lib/myplanet/logo/radiant-orange/mark-knockout.svg" />
+
 
     <!-- Printing and PDF exports -->
     <script src="js/reveal-print.js"></script>
@@ -30,13 +30,13 @@
 <body>
     <div class="reveal pattern--palette">
         <div class="slides">
-            <section class="intro" id="intro">
+            <!--     <section class="intro" id="intro">
                 <div class="logo-wrapper">
                     <div class="big-title">
                         <h1>Section Title</h1>
                     </div>
                 </div>
-            </section>
+            </section>-->
 
             <section class="title" id="title">
                 <div class="grid-wrapper">
@@ -79,7 +79,8 @@
                 <div class="grid-e1">
                     <div class="pt1">
                         <p class="e fragment">
-                            When entrepreneurs make their investment decisions, they do not know whether they will end up
+                            When entrepreneurs make their investment decisions, they do not know whether they will end
+                            up
                             with a high-productivity good or a low-productivity good.
                         </p>
                     </div>
@@ -88,13 +89,14 @@
                     <div class="pt2">
                         <p class="e fragment">
                             The \(\theta\) associated with an investment project is discovered only after the investment
-                            is sunk. All that entrepreneurs know ex ante is that \(\theta\) is distributed uniformly over
+                            is sunk. All that entrepreneurs know ex ante is that \(\theta\) is distributed uniformly
+                            over
                             the range \([0, h]\)
                         </p>
                     </div>
                     <div class="diag">
                         <div class="diagram ">
-                            <div class="fragment " style="position:absolute "> <img src="uniform1.svg #base "></div>
+                            <div class="fragment " style="position:absolute "> <img src="uniform1.svg #base"></div>
                         </div>
                     </div>
 
@@ -155,7 +157,6 @@
 
                 </div>
             </section>
-           
 
 
 
@@ -166,17 +167,28 @@
 
 
 
-      
-            <section class = "blueprint">
+
+
+            <section class="blueprint">
 
 
 
-                <div class = "grid-e3">
+                <div class="grid-e3">
 
-<div class="title"><h1 class="white">Entrepreneurship and Sophistication</h1></div>
-<div class="pt1 fragment white"><h2>Suppose there are \(m\) entrepreneurs in an economy each trying to innovate products the sophistication of which is uniformly distributed over \([0,h]\) </h2></div>
-<div class="pt2 fragment white"><h2>We will find the expected value of the maximum sophistication that will be achieved in this economy with \(m\) entrepreneurs. It is given as: </h2></div>
-<div class="pt3 fragment white"><h2>$$ E[\theta^\max] = {hm} \over {m+1} $$ </h2></div>
+                    <div class="title">
+                        <h1 class="white">Entrepreneurship and Sophistication</h1>
+                    </div>
+                    <div class="pt1 fragment white">
+                        <h2>Suppose there are \(m\) entrepreneurs in an economy each trying to innovate products the
+                            sophistication of which is uniformly distributed over \([0,h]\) </h2>
+                    </div>
+                    <div class="pt2 fragment white">
+                        <h2>We will find the expected value of the maximum sophistication that will be achieved in this
+                            economy with \(m\) entrepreneurs. It is given as: </h2>
+                    </div>
+                    <div class="pt3 fragment white">
+                        <h2>$$ E[\theta^\max] = {hm} \over {m+1} $$ </h2>
+                    </div>
 
 
                 </div>
@@ -216,32 +228,32 @@
 
             </section>
 
-<section id="der" class = "blueprint">
-    <div class = "der">
-    <h2 class ="white">Derivation of \(E[\theta^\max]\) continued</h2>
+            <section id="der" class="blueprint">
+                <div class="der">
+                    <h2 class="white">Derivation of \(E[\theta^\max]\) continued</h2>
 
 
-<img src="der2.png">
+                    <img src="der2.png">
 
 
-</div>
+                </div>
 
 
             </section>
 
-            <section id="der1" class = "blueprint">
-                <div class = "der">
-           
-            
- 
-            
-            
-            <img src="der3.png">
-            </div>
-            
-            
-                        </section>
-      
+            <section id="der1" class="blueprint">
+                <div class="der">
+
+
+
+
+
+                    <img src="der3.png">
+                </div>
+
+
+            </section>
+
 
             <section id="probabder_innovate" class="blueprint">
                 <div class="der">
@@ -254,13 +266,16 @@
                         </div>
                     </div>
                     <h2 class="white">
-                    <div class="eqnout">
+                        <div class="eqnout">
 
-                        <div class="fragment center"> $$\text{prob}\left(\theta_{i} \geq \alpha \theta^{\max }\right)$$</div>
-                        <div class="fragment center"> $$ = \int_{\alpha \theta^{\max}}^h {1 \over h} d\theta $$</div>
-                        <div class="fragment center"> $$ = 1-\frac{\alpha E[\theta^{\max }]}{h}$$</div>   <div class="fragment center">$$ = 1- {\alpha m \over {m+1}}$$  </div>
+                            <div class="fragment center"> $$\text{prob}\left(\theta_{i} \geq \alpha \theta^{\max
+                                }\right)$$</div>
+                            <div class="fragment center"> $$ = \int_{\alpha \theta^{\max}}^h {1 \over h} d\theta $$
+                            </div>
+                            <div class="fragment center"> $$ = 1-\frac{\alpha E[\theta^{\max }]}{h}$$</div>
+                            <div class="fragment center">$$ = 1- {\alpha m \over {m+1}}$$ </div>
 
-                    </div>
+                        </div>
                     </h2>
                     <div class="fragment">
                         <h2 class="white">The expected profit if investor innovates is given a exogenously
@@ -272,51 +287,59 @@
 
                                         <div class="center fragment">$$=\frac{1}{2} p \left[h+\alpha E\left(\theta^{\max
                                             }\right)\right]$$</div>
-                                        <div class="center fragment">$$=\frac{1}{2} p h\left[1+\frac{\alpha m}{m+1}\right]$$
+                                        <div class="center fragment">$$=\frac{1}{2} p h\left[1+\frac{\alpha
+                                            m}{m+1}\right]$$
                                         </div>
                                     </div>
                                 </h2>
                     </div>
 
-                </div></section>
-
-
-
-        <section id="probabder_copy" class="blueprint">
-            <div class="der">
-                <div>
-                    <h2 class="white">The probability that the entrepreneur \(i\) will copy the most sophisticated product is:</h2>
                 </div>
-                <div>
-                    <div class="diagram1 ">
-                        <div class="fragment "> <img src="uniform11.svg"></div>
+            </section>
+
+
+
+            <section id="probabder_copy" class="blueprint">
+                <div class="der">
+                    <div>
+                        <h2 class="white">The probability that the entrepreneur \(i\) will copy the most sophisticated
+                            product is:</h2>
                     </div>
-                </div>
-                <h2 class="white">
-                <div class="eqnout">
+                    <div>
+                        <div class="diagram1 ">
+                            <div class="fragment "> <img src="uniform11.svg"></div>
+                        </div>
+                    </div>
+                    <h2 class="white">
+                        <div class="eqnout">
 
-                    <div class="fragment center"> $$\text{prob}\left(\theta_{i} \leq \alpha \theta^{\max }\right)$$</div>
-                    <div class="fragment center"> $$ = \int_0^{\alpha \theta^{\max}}{1 \over h} d\theta $$</div>
-                    <div class="fragment center"> $$ = \frac{\alpha E[\theta^{\max }]}{h}$$</div>   <div class="fragment center">$$ = {\alpha m \over {m+1}}$$  </div>
+                            <div class="fragment center"> $$\text{prob}\left(\theta_{i} \leq \alpha \theta^{\max
+                                }\right)$$</div>
+                            <div class="fragment center"> $$ = \int_0^{\alpha \theta^{\max}}{1 \over h} d\theta $$</div>
+                            <div class="fragment center"> $$ = \frac{\alpha E[\theta^{\max }]}{h}$$</div>
+                            <div class="fragment center">$$ = {\alpha m \over {m+1}}$$ </div>
 
-                </div>
-                </h2>
-                <div class="fragment">
-                    <h2 class="white">The expected profit if entrepreneur copies the most sophisticated product, given a exogenously determined world price \(p\)<h2>
-                            <h2 class="white">
-                                <div class="eqnout">
-                                    <div class="center fragment">$$E\left(\pi \mid \theta_{i} \leq \alpha
-                                        \theta^{\max }\right)$$</div>
+                        </div>
+                    </h2>
+                    <div class="fragment">
+                        <h2 class="white">The expected profit if entrepreneur copies the most sophisticated product,
+                            given a exogenously determined world price \(p\)<h2>
+                                <h2 class="white">
+                                    <div class="eqnout">
+                                        <div class="center fragment">$$E\left(\pi \mid \theta_{i} \leq \alpha
+                                            \theta^{\max }\right)$$</div>
 
-                                    <div class="center fragment">$$=\frac{1}{2} p \left[0+\alpha E\left(\theta^{\max
-                                        }\right)\right]$$</div>
-                                    <div class="center fragment">$$=\frac{1}{2} p h\left[\frac{\alpha m}{m+1}\right]$$
+                                        <div class="center fragment">$$=\frac{1}{2} p \left[0+\alpha E\left(\theta^{\max
+                                            }\right)\right]$$</div>
+                                        <div class="center fragment">$$=\frac{1}{2} p h\left[\frac{\alpha
+                                            m}{m+1}\right]$$
+                                        </div>
                                     </div>
-                                </div>
-                            </h2>
-                </div>
+                                </h2>
+                    </div>
 
-            </div></section>
+                </div>
+            </section>
 
 
 
@@ -324,32 +347,46 @@
                 <div class="der">
 
 
-                    <div><h2 class="white">Now, entrepreneurs have two options whether to copy or to innovate we can calculate the expected profitability of the modern sector as: </h2></div>
-                            <div class="fragment">
-                                <h2 class="white">
-                            $$ {(1-{{\alpha m} \over {m+1} })}{{1 \over 2}ph (1+ {{\alpha m} \over {m+1}} )} $$
+                    <div>
+                        <h2 class="white">Now, entrepreneurs have two options whether to copy or to innovate we can
+                            calculate the expected profitability of the modern sector as: </h2>
+                    </div>
+               
+                        <div class="eqnout">
+                            <h2 class="white">
+                                <div class="center"> $$ {(1-{{\alpha m} \over {m+1} })}{{1 \over 2}ph (1+ {{\alpha m} \over {m+1}} )}
+                                    $$</div>
+                                <div class="centert">
+                                
+                                    $$+ {{\alpha m} \over {m+1}} \ ({{1 \over 2}ph ({{\alpha m} \over {m+1}} ))}$$
+                                </div>
+                            </h2>
+                        </div>
 
-                            $$ + {{\alpha m} \over {m+1}} {{1 \over 2}ph ({{\alpha m} \over {m+1}} )} $$</h2>
 
-                            </div>
 
-                            
-                    <div><h2 class="white hragment">This gives expected profitability of the modern sector as: 
+                    <div>
+                        <h2 class="white fragment">This gives expected profitability of the modern sector as:
 
-                    </h2></div>
+                        </h2>
+                    </div>
 
                     <div class="fragment">
-                    <h2 class="white">
-                        $$ {1 \over 2} ph $$
+                        <h2 class="white">
+                            $$ {1 \over 2} ph $$
 
-                    </h2>
+                        </h2>
 
-                        </div>
-    
-                        <div><h2 class="white fragment">This gives expected profitability of the modern sector is independent of \(m\) and only dependent upon world price \(p\) and skill level \(h\). 
+                    </div>
 
-                        </h2></div>
+            
+                    <div>
+                        <h2 class="white fragment">This gives expected profitability of the modern sector is independent
+                            of \(m\) and only dependent upon world price \(p\) and skill level \(h\).
 
+                        </h2>
+                    </div>
+                </div>
 
 
 
@@ -364,25 +401,25 @@
 
 
 
-        <div class="count-particles">
-            <span class="js-count-particles"></span>
+            <div class="count-particles">
+                <span class="js-count-particles"></span>
+            </div>
+
+
+
+            <div id="particles-js"></div>
+            <script src="js/particles.min.js"></script>
+
+
+
+            <script src="js/app.js"></script>
+
         </div>
 
 
-
-        <div id="particles-js"></div>
-        <script src="js/particles.min.js"></script>
-
-
-
-        <script src="js/app.js"></script>
-
-    </div>
-
-
-    <script src="lib/js/head.min.js "></script>
-    <script src="js/reveal.js "></script>
-    <script src="js\reveal-init.js "></script>
+        <script src="lib/js/head.min.js "></script>
+        <script src="js/reveal.js "></script>
+        <script src="js\reveal-init.js "></script>
 </body>
 
 </html>
