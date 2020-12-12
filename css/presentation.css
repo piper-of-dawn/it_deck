@@ -45,3 +45,13 @@ body{
 }
 
 .eqnout div{padding: 4px !important}
+
+
+.simple p {
+    color: darkslategrey;
+}
+
+.last{
+    background-color: none;
+    background: none;
+}

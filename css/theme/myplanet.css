@@ -711,7 +711,7 @@ html {
     height: 100vh;
     margin: 0;
     width: 100vw;
-    color: #2A2A49;
+    color: #fff;
 }
 
 .reveal .slides section:not([class*='color--']) {
@@ -793,6 +793,7 @@ html {
     background-size: contain;
     height: auto;
     margin: auto;
+    color: darkslategrey;
     min-height: 200px;
     min-width: 200px;
     width: 33%;
