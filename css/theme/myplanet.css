@@ -390,9 +390,7 @@ html {
     background-size: 133vmax auto;
 }
 
-.reveal.pattern--night-sky .slides section.intro .logo {
-    background-image: url("../../lib/myplanet/patterns/night-sky/logo.svg");
-}
+
 
 .reveal.pattern--night-sky .slides section.title {
     background-color: #0D7D7F;
@@ -444,7 +442,7 @@ html {
 }
 
 .reveal.pattern--playground .slides section.intro .logo {
-    background-image: url("../../lib/myplanet/patterns/playground/logo.svg");
+    background-image: url("../../lib/myplanet/patterns/playground/");
 }
 
 .reveal.pattern--playground .slides section.title {
@@ -468,7 +466,7 @@ html {
 }
 
 .reveal.pattern--pop .slides section.intro .logo {
-    background-image: url("../../lib/myplanet/patterns/pop/logo.svg");
+    background-image: url("../../lib/myplanet/patterns/pop/");
 }
 
 .reveal.pattern--pop .slides section.title {
@@ -492,7 +490,7 @@ html {
 }
 
 .reveal.pattern--quilt .slides section.intro .logo {
-    background-image: url("../../lib/myplanet/patterns/quilt/logo.svg");
+    background-image: url("../../lib/myplanet/patterns/quilt/");
 }
 
 .reveal.pattern--quilt .slides section.title {
@@ -516,7 +514,7 @@ html {
 }
 
 .reveal.pattern--stream .slides section.intro .logo {
-    background-image: url("../../lib/myplanet/patterns/stream/logo.svg");
+    background-image: url("../../lib/myplanet/patterns/stream/");
 }
 
 .reveal.pattern--stream .slides section.title {
@@ -540,7 +538,7 @@ html {
 }
 
 .reveal.pattern--stripes .slides section.intro .logo {
-    background-image: url("../../lib/myplanet/patterns/stripes/logo.svg");
+    background-image: url("../../lib/myplanet/patterns/stripes/");
 }
 
 .reveal.pattern--stripes .slides section.title {
@@ -564,7 +562,7 @@ html {
 }
 
 .reveal.pattern--waterfall .slides section.intro .logo {
-    background-image: url("../../lib/myplanet/patterns/waterfall/logo.svg");
+    background-image: url("../../lib/myplanet/patterns/waterfall/");
 }
 
 .reveal.pattern--waterfall .slides section.title {
@@ -588,7 +586,7 @@ html {
 }
 
 .reveal.pattern--waves .slides section.intro .logo {
-    background-image: url("../../lib/myplanet/patterns/waves/logo.svg");
+    background-image: url("../../lib/myplanet/patterns/waves/");
 }
 
 .reveal.pattern--waves .slides section.title {
@@ -833,14 +831,10 @@ html {
     grid-column-gap: 10vmin;
 }
 
-.reveal .slides section.title .logo {
-    background-image: url("../../lib/myplanet/logo/white/mark-outline.svg");
-    height: 6vmin;
-    width: 6vmin;
-}
+
 
 .reveal .slides section.title .logo--full {
-    background-image: url("../../lib/myplanet/logo/white/logo-outline.svg");
+    background-image: url("../../lib/myplanet/logo/white/");
     width: 24vmin;
 }
 
@@ -1104,7 +1098,6 @@ html {
         height: 100%;
     }
     .reveal .slides section.end .logo {
-        background-image: url("../../lib/myplanet/logo/radiant-orange/logo-outline.svg");
         background-position: center;
         background-size: contain;
         height: auto;
@@ -1114,7 +1107,6 @@ html {
         width: 33%;
     }
     .reveal .slides section.end.color--radiant .logo {
-        background-image: url("../../lib/myplanet/logo/white/logo-outline.svg");
     }
     /*******************************************************************************
 * Code Segments
